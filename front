@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        <title></title>
+        <meta charset-"utf-8">
+        <style>
+            h1, h3{
+                color:green;
+                text-align:center;
+            }
+            h2{
+                color:red;
+                text-align:center;
+            }
+            .saw{
+                border:5px solid blue;
+                padding:20px;
+                margin:0;
+                display:block;
+                width:100px;
+            }
+        </style>
+
+
+    </head>
+
+    <body style = "background-color : black; color: white;">
+
+
+
+
+
+        <h1>EYE_GO</h1>
+        <h2>welcome to</h2>
+        <h3><strong><u>아이고</u></strong></h3>
+
+
+
+        <input type="button", value="night" onclick="
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.color = 'darkslategray';
+        ">
+        <input type="button" , value="day" onclick="
+                    document.querySelector('body').style.backgroundColor = 'darkslategray';
+                    document.querySelector('body').style.color = 'black';
+        ">
+
+
+
+
+
+        <br></br>
+        <br></br>
+
+
+        
+
+
+
+
+
+        <h2 class="saw", style="text-align:center;">Searching<br></br>(검색)</h2>
+        <h2 class="saw", style="color:red;">Writing<br></br>(글쓰기)</h2>
+
+
+
+
+
+
+
+
+        <br></br>
+        
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+</html>
+        
